@@ -6,7 +6,7 @@ interface FeatureProps {
   className?: string;
 }
 
-export default function Feature({ children, className }: FeatureProps) {
+export function Feature({ children, className }: FeatureProps) {
   return (
     <div className={cn('flex items-center gap-2', className)}>
       <CheckIcon className="size-4 rounded-full bg-accent/25 stroke-accent p-0.5" />

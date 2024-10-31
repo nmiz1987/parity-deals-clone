@@ -1,8 +1,8 @@
-import { Earth } from "lucide-react";
+import { Earth } from 'lucide-react';
 
-export default function BrandLogo() {
+export function BrandLogo() {
   return (
-    <span className="flex items-center gap-2 font-semibold flex-shrink-0 text-lg">
+    <span className="flex flex-shrink-0 items-center gap-2 text-lg font-semibold">
       <Earth className="size-8" />
       <span>Easy PPP</span>
     </span>

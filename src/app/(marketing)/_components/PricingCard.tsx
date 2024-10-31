@@ -1,4 +1,4 @@
-import Feature from '@/components/Feature';
+import { Feature } from '@/components/Feature';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -12,7 +12,7 @@ import { SubscriptionTierInfo } from '@/data/subscriptionTiers';
 import { formatCompactNumber } from '@/lib/formatters';
 import { SignUpButton } from '@clerk/nextjs';
 
-export default function PricingCard({
+export function PricingCard({
   canAccessAnalytics,
   canCustomizeBanner,
   canRemoveBranding,
